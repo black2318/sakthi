@@ -1,5 +1,3 @@
-# Example requirements.txt
-
 # Django web framework
 Django==3.2.5
 
@@ -12,8 +10,10 @@ SQLAlchemy==1.4.25
 # Flask for building web applications
 Flask==2.0.1
 
-# requirements.txt
+# Gunicorn for serving the Flask application
+gunicorn==20.1.0
 
-Flask==2.0.1
-gunicorn==20.1.0; python_version >= '3.6'
+# Werkzeug library for utilities used by Flask
+Werkzeug==2.0.1
+
 
