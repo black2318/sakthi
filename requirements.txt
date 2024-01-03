@@ -1,0 +1,13 @@
+# Example requirements.txt
+
+# Django web framework
+Django==3.2.5
+
+# Requests library for making HTTP requests
+requests==2.26.0
+
+# SQLAlchemy for database access
+SQLAlchemy==1.4.25
+
+# Flask for building web applications
+Flask==2.0.1
